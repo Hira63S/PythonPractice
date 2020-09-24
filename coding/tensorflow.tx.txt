@@ -1,0 +1,2 @@
+cd C:\Users\Billi\coding
+git clone https://github.com/MicrocontrollersAndMore/TensorFlow_Tut_1_Installation_and_First_Progs.git
