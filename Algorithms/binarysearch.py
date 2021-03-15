@@ -12,10 +12,10 @@ def BinarySearch(array, target):
 
     # set the pointers to the head adn the tail
     low = 0   # lowest index
-    print(low)
+    # print(low)
     # because of the index
     high = len(array) - 1    # high index
-    print(high)
+    # print(high)
     count=0
     while low <= high:
         # find the middle element:
