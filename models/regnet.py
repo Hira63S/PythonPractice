@@ -11,7 +11,7 @@ def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
 
 def conv1x1(in_planes, out_planes, stride=1):
     '''1x1 convolution'''
-    return nn.Con2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=False)
+    return nn.Conv2d(in_planes, out_planes, kernel_size=1, stride=stride, bias=False)
 
 class Bottleneck(nn.Module):
     expansion = 1
@@ -112,7 +112,7 @@ class RegNet(nn.Module):
             stride = 1
         if stride != 1 or self.planes != planes:
             downsample = nn.Sequential(
-                conv1x1(self.inplanes, planes, stride),
+                conv1x1(self.in_planes, planes, stride),
                 norm_layer(planes),
             )
         layers = []
