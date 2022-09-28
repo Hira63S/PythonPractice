@@ -46,3 +46,46 @@ for i in range(len(array)):
     if i == target:
         print(array[i])
 print(BinarySearch(array, target))
+
+
+
+
+
+#test BN:
+'''
+def bn(array, target):
+
+    mid = len(arr) / 2
+    point = array[mid]
+
+    for i in arr[:mid]:
+        if
+
+
+
+
+
+
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# test
