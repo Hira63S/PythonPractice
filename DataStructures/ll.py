@@ -18,7 +18,27 @@ class LinkedList:
             curr.next = new_node
         else:
             self.head = new_node
+'''
+    def insert(self,head,data):
+    #Complete this method
+        # curr = head
+        new_node = Node(data)
+        head_node = Node(data) # now head has a data and a .next thing
+        if head is None:
+            head = head_node
 
+        else:
+            #$ this is what we call a pointer in the linked list 
+            curr_node = head
+            while curr_node.next:
+                # print(head_node)
+                curr_node = curr_node.next
+
+                # print(head_node.data)
+            curr_node.next = new_node
+            # return head_node
+        return head
+'''
     def print(self):
         curr = self.head
         while(curr):
