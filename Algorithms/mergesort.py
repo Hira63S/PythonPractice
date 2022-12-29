@@ -20,7 +20,7 @@ def MergeSort(arr):
     while i < len(left_arr) and j < len(right_arr):
         if left_arr[i] < right_arr[j]:
             arr[k] = left_arr[i]
-            i += 1 
+            i += 1 # this is just to make sure that the element of the left array has been added to arr[k]/sorted 
         elif right_arr[j] < left_arr[i]:
             arr[k] = right_arr[j]
             j += 1
