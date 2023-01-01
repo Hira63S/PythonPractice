@@ -28,3 +28,7 @@ def bubble_sort(arr):
             if arr[i] < arr[i+1]:
                 arr[i], arr[i+1] = arr[i+1], arr[i]
             counter +=1
+            already_sorted = False
+        if already_sorted and counter == 0:
+            break
+    return arr
