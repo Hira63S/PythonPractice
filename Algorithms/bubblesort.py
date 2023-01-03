@@ -32,5 +32,5 @@ def bubble_sort(arr):
         if already_sorted and counter == 0:
             break
     return arr
-
+# the type of bubblesort explained by the video 
 # print(I am bubble sort')
