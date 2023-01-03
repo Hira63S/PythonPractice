@@ -35,3 +35,5 @@ def MergeSort(arr):
             arr[k] = right_arr[j]
             j += 1
             k += 1
+
+# the whole merge_sort needs to be inside the if statement
