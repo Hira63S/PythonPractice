@@ -37,3 +37,4 @@ def MergeSort(arr):
             k += 1
 
 # the whole merge_sort needs to be inside the if statement
+# because if the length of the list is greater than 1, it doesn't make a difference 
