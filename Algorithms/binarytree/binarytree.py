@@ -40,7 +40,7 @@ class BinaryTree:
 
 
 
-
+# binary tree traversals
 tr = BinaryTree(1)
 tr.root.left = Node(2)
 tr.root.right = Node(3)
