@@ -9,4 +9,4 @@ Insert, remove and search is all O(1) time complexity.
 
 
 Binary Tree:
-O(log(n))
+O(log(n))'
