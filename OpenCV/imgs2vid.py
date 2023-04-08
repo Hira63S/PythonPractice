@@ -4,12 +4,12 @@ import glob
 import os
 
 
-fil_dir = 'C://users/cathx/repos/argoverse-api/val/00c561b9-2057-358d-82c6-5b06d76cebcf/ring_front_center/'
-img_dir = 'C://users/cathx/repos/argoverse-api/val/00c561b9-2057-358d-82c6-5b06d76cebcf/ring_front_center/*.jpg'
+fil_dir = 'C://users/cathx/repos/nerf-pytorch/vid_images'
+img_dir = 'C://users/cathx/repos/nerf-pytorch/vid_images/*.jpg'
 
 img_array = []
 
-img =  cv2.imread(os.path.join(fil_dir, 'ring_front_center_315969629921612120.jpg'))
+img =  cv2.imread(os.path.join(fil_dir, 'ring_front_right_315969630254611840.jpg'))
 h, w, l = img.shape
 size = (w, h)
 # print(img_size)
