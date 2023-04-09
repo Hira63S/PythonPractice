@@ -9,7 +9,7 @@ img_dir = 'C://users/cathx/repos/nerf-pytorch/images/*.jpg'
 
 img_array = []
 
-img =  cv2.imread(os.path.join(fil_dir, 'ring_front_right_315969630254611840.jpg'))
+img =  cv2.imread(os.path.join(fil_dir, '1.jpg'))
 h, w, l = img.shape
 size = (w, h)
 # print(img_size)
